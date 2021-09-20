@@ -7,6 +7,7 @@ PFont titleFont;
 
 PImage[] gif;
 int numberOfFrames;
+int f;
 
 String[] words;
 
@@ -17,7 +18,10 @@ color blue = #0000FF;
 color green = #00FF00;
 color yellow = #FFFF00;
 color orange = #FFAA00;
-color purple = #FF00FF;
+color purple = #BA0EC4;
+
+int w;
+int c;
 
 
 
@@ -58,7 +62,7 @@ void setup() {
   colors[4] = orange;
   colors[5] = purple;
   
-  
+
   
   mode = INTRO;
   
