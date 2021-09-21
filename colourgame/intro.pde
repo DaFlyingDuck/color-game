@@ -33,6 +33,9 @@ void introclicked() {
   if (mouseX > width/2 - 100 && mouseX < width/2 + 100 && mouseY > 420 && mouseY < 500) {
     
     mode = GAME;  
+    tf = 0;
+    timer = 0;
+    score = 0;
     w = int(random(0, 6));
     c = int(random(0, 6));
   

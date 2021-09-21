@@ -1,3 +1,9 @@
+// Taiki Shickele
+// September 21 2021
+// Colour Game
+
+
+
 int mode;
 final int INTRO = 0;
 final int GAME = 1;
@@ -22,6 +28,12 @@ color purple = #BA0EC4;
 
 int w;
 int c;
+int tf;
+
+float timer;
+
+int score;
+int highscore;
 
 
 

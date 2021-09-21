@@ -1,4 +1,4 @@
-void mouseClicked() {
+void mouseReleased() {
   
   if (mode == INTRO) {
     
