@@ -35,11 +35,14 @@ float timer;
 int score;
 int highscore;
 
+int gmcolour = 0;
+
 
 
 void setup() {
   
   size(800,600);
+  frameRate(60);
   titleFont = createFont("Royalacid.ttf", 50);
   
   numberOfFrames = 30;

@@ -73,6 +73,7 @@ void gameclicked() {
     
   } else { 
     
+    
     mode = GAMEOVER;
     
   }

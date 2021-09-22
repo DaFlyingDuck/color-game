@@ -18,6 +18,11 @@ void intro() {
   
   
   // Start Button
+  if (mouseX > width/2 - 100 && mouseX < width/2 + 100 && mouseY > 420 && mouseY < 500) {
+    fill(255, 0, 0);
+  } else { 
+    fill(255);
+  }
   textAlign(CENTER, CENTER);
   textFont(titleFont);
   textSize(50);
