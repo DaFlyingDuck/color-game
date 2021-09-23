@@ -40,6 +40,8 @@ void game() {
 
 void gameclicked() {
   
+  // If Clicked Matching
+  
   if (w == c && mouseX > 0 && mouseX < width/2 && mouseY > 0 && mouseY < height) {
     
     w = int(random(0, 6));
@@ -55,7 +57,8 @@ void gameclicked() {
     timer = 0;
     score = score + 1;
     
-    
+  //If Clicked Not Matching
+  
   } else if (w != c && mouseX > width/2 && mouseX < width && mouseY > 0 && mouseY < height) {
     
     w = int(random(0, 6));
