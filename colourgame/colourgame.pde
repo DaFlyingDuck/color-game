@@ -3,6 +3,7 @@
 // Colour Game
 
 
+//Declare Variables
 
 int mode;
 final int INTRO = 0;
@@ -45,6 +46,8 @@ void setup() {
   frameRate(60);
   titleFont = createFont("Royalacid.ttf", 50);
   
+  //Title Gif Setup
+  
   numberOfFrames = 30;
   gif = new PImage[numberOfFrames];
   
@@ -59,6 +62,7 @@ void setup() {
   
   
 
+  // Colour and Word Array Setup
   
   words = new String[6];
   colors = new color[6];
